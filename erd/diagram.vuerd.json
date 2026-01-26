@@ -4,7 +4,7 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -10,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": 431,
@@ -44,11 +44,14 @@
         "name": "User",
         "comment": "사용자 테이블",
         "columnIds": [
-          "Y5sg76HQD1b4WUYJJ4V9G"
+          "Y5sg76HQD1b4WUYJJ4V9G",
+          "xXVNWOaOq3gCGQOu6lKRf"
         ],
         "seqColumnIds": [
           "12bIRpyyz6SYpal4thnLn",
-          "Y5sg76HQD1b4WUYJJ4V9G"
+          "Y5sg76HQD1b4WUYJJ4V9G",
+          "SRM6GlgtSCyFaVybJhYlh",
+          "xXVNWOaOq3gCGQOu6lKRf"
         ],
         "ui": {
           "x": 52,
@@ -59,7 +62,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1769439131854,
+          "updateAt": 1769440233160,
           "createAt": 1769438864626
         }
       }
@@ -103,6 +106,46 @@
         "meta": {
           "updateAt": 1769439167105,
           "createAt": 1769439131853
+        }
+      },
+      "SRM6GlgtSCyFaVybJhYlh": {
+        "id": "SRM6GlgtSCyFaVybJhYlh",
+        "tableId": "bJ7AOC6b5UBri3XKxWYJY",
+        "name": "https://github.com/Hyeri1ee/dnd-14th-4-table-erd.git",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 303,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769440230937,
+          "createAt": 1769440230936
+        }
+      },
+      "xXVNWOaOq3gCGQOu6lKRf": {
+        "id": "xXVNWOaOq3gCGQOu6lKRf",
+        "tableId": "bJ7AOC6b5UBri3XKxWYJY",
+        "name": "name",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769440246059,
+          "createAt": 1769440233160
         }
       }
     },
