@@ -4,9 +4,9 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1139.9339,
-    "scrollLeft": -206.3066,
-    "zoomLevel": 0.71,
+    "scrollTop": -334.4759,
+    "scrollLeft": -252.8589,
+    "zoomLevel": 0.74,
     "show": 431,
     "database": 4,
     "databaseName": "",
@@ -64,7 +64,8 @@
       "2LAcKljObBZY5iIZKcr4a",
       "Bl6KcNpFmT3_BBgmrssNI",
       "9xNAZAvfZx1XCnUfsoWPo",
-      "tsO7A6ZhrKp7ukdtr2z-e"
+      "tsO7A6ZhrKp7ukdtr2z-e",
+      "KCkfC8SPr6upozfYdxDF8"
     ]
   },
   "collections": {
@@ -75,6 +76,7 @@
         "comment": "서비스 사용자",
         "columnIds": [
           "Y5sg76HQD1b4WUYJJ4V9G",
+          "qelqDKuxvmS8XcL1dHBDd",
           "ZYNf3lizgpnCOehkqkNnV",
           "JLymQu7fjq50FAAQE8qf9",
           "9gFNL8CfIs6lwKrGWB4E3",
@@ -85,6 +87,7 @@
         "seqColumnIds": [
           "12bIRpyyz6SYpal4thnLn",
           "Y5sg76HQD1b4WUYJJ4V9G",
+          "qelqDKuxvmS8XcL1dHBDd",
           "ZYNf3lizgpnCOehkqkNnV",
           "JLymQu7fjq50FAAQE8qf9",
           "9gFNL8CfIs6lwKrGWB4E3",
@@ -101,7 +104,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1769570682075,
+          "updateAt": 1769593969348,
           "createAt": 1769438864626
         }
       },
@@ -558,18 +561,18 @@
         "tableId": "bJ7AOC6b5UBri3XKxWYJY",
         "name": "occupation",
         "comment": "사용자 직군",
-        "dataType": "VARCHAR(255)",
+        "dataType": "ENUM",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 65,
           "widthComment": 60,
-          "widthDataType": 90,
+          "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1769569710055,
+          "updateAt": 1769593977500,
           "createAt": 1769509439021
         }
       },
@@ -1532,6 +1535,26 @@
           "updateAt": 1769571692649,
           "createAt": 1769571692649
         }
+      },
+      "qelqDKuxvmS8XcL1dHBDd": {
+        "id": "qelqDKuxvmS8XcL1dHBDd",
+        "tableId": "bJ7AOC6b5UBri3XKxWYJY",
+        "name": "email",
+        "comment": "사용자 이메일",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 68,
+          "widthDataType": 83,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769593956222,
+          "createAt": 1769593892055
+        }
       }
     },
     "relationshipEntities": {
@@ -1545,8 +1568,8 @@
           "columnIds": [
             "Y5sg76HQD1b4WUYJJ4V9G"
           ],
-          "x": 547.9894,
-          "y": 550.5131,
+          "x": 540.9894,
+          "y": 568.5131,
           "direction": 2
         },
         "end": {
@@ -1601,8 +1624,8 @@
           "columnIds": [
             "Y5sg76HQD1b4WUYJJ4V9G"
           ],
-          "x": 547.9894,
-          "y": 438.5131,
+          "x": 540.9894,
+          "y": 444.5131,
           "direction": 2
         },
         "end": {
@@ -1713,8 +1736,8 @@
           "columnIds": [
             "Y5sg76HQD1b4WUYJJ4V9G"
           ],
-          "x": 419.7394,
-          "y": 606.5131,
+          "x": 414.4894,
+          "y": 630.5131,
           "direction": 8
         },
         "end": {
@@ -1881,8 +1904,8 @@
           "columnIds": [
             "Y5sg76HQD1b4WUYJJ4V9G"
           ],
-          "x": 163.2394,
-          "y": 606.5131,
+          "x": 161.4894,
+          "y": 630.5131,
           "direction": 8
         },
         "end": {
@@ -1993,6 +2016,22 @@
         "meta": {
           "updateAt": 1769571771577,
           "createAt": 1769571514838
+        }
+      },
+      "KCkfC8SPr6upozfYdxDF8": {
+        "id": "KCkfC8SPr6upozfYdxDF8",
+        "value": "사용자 이메일 누락 보완\n사용자 직군은 WF 상에서 태그 선택형으로 기능 제공 중이라 ENUM 채택",
+        "ui": {
+          "x": 38.9985,
+          "y": 233.0755,
+          "zIndex": 687,
+          "width": 116,
+          "height": 100,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1769594014428,
+          "createAt": 1769593987660
         }
       }
     }
